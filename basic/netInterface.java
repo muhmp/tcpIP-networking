@@ -3,7 +3,7 @@ import java.net.SocketException;
 import java.util.Collections;
 import java.util.Enumeration;
 
-public class Main {
+public class netInterface {
     public static void main(String[]args){
        try{
            Enumeration<NetworkInterface> networkIe = NetworkInterface.getNetworkInterfaces();
